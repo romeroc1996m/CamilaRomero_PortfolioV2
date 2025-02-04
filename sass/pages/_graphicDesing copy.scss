@@ -1,0 +1,643 @@
+// banner
+
+#banner-GRP {
+    grid-column: 1/5;
+    width: 375px;
+    height: 650px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/GRD/bannerGD_mobile.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#des-GRP {
+    background-color: #F8EFD1;
+    height: 570px;
+}
+
+.p-GRP {
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    grid-column: 1/5;
+    text-align: center;
+    align-content: center;
+}
+
+//project1
+
+#project1-GRP {
+    height: 2850px;
+}
+
+#title-project1-GRP {
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    font-size: 52px;
+    grid-column: 1/5;
+    grid-row: 1;
+    margin-top: 70px;
+}
+
+#p1-GRP {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    grid-column: 1/5;
+    grid-row: 1;
+    margin-top: 270px;
+    text-align: center;
+}
+
+#img1-GRP {
+    grid-column: 1/5;
+}
+
+#img2-GRP {
+    grid-column: 1/5;
+}
+
+#img3-GRP {
+    grid-column: 1/5;
+}
+
+#img4-GRP {
+    grid-column: 1/5;
+}
+
+#tools-title-project1-GRP {
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 30px;
+    grid-column: 1/5;
+}
+
+#icon-GRP1 {
+    width: 73px;
+    height: 64px;
+    grid-column: 2/3;
+}
+
+#icon-GRP2 {
+    width: 73px;
+    height: 64px;
+    grid-column: 3/4;
+}
+
+//project2
+
+#project2-GRP {
+    height: 2100px;
+    background-color: #F8EFD1;
+}
+
+#title-project2-GRP {
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    font-size: 52px;
+    grid-column: 1/5;
+    grid-row: 1;
+    margin-top: 70px;
+}
+
+#p2-GRP {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    grid-column: 1/5;
+    grid-row: 1;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#img1-project2-GRP {
+    grid-column: 1/5;
+    width: 340px;
+    height: 200px;
+    background-image: url('/images/GRD/print-content1-mobile2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#img1-1-project2-GRP {
+    grid-column: 1/5;
+    width: 340px;
+    height: 200px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/GRD/print-content1-mobile1.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#img2-project2-GRP {
+    grid-column: 1/5;
+    width: 340px;
+    height: 200px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/GRD/print-content4-mobile1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#img2-2-project2-GRP {
+    grid-column: 1/5;
+    width: 340px;
+    height: 200px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/GRD/print-content4-mobile1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#img3-project2-GRP {
+    grid-column: 1/5;
+}
+
+#img4-project2-GRP {
+    grid-column: 1/5;
+}
+
+#tools-title-project1-GRP {
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 30px;
+    grid-column: 1/5;
+    margin-top: 40px;
+}
+
+#icon-GRP3 {
+    grid-column: 3/4;
+    margin-bottom: 250px;
+}
+
+//project 3
+
+#project3-GRP {
+    height: 2500px;
+}
+
+#title-project3-GRP {
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    font-size: 52px;
+    grid-column: 1/5;
+    grid-row: 1;
+    margin-top: 50px;
+}
+
+#p3-GRP {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    grid-column: 1/5;
+    grid-row: 1;
+    margin-top: 310px;
+    text-align: center;
+}
+
+#img1-GRP3 {
+    grid-column: 1/5;
+}
+
+#img2-GRP3 {
+    grid-column: 1/5;
+}
+
+#img3-GRP3 {
+    grid-column: 1/5;
+}
+
+#tools-title-project3-GRP {
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 30px;
+    grid-column: 1/5;
+    margin-top: 40px;
+}
+
+#icon-GRP3 {
+    grid-column: 2/3;
+}
+
+@media screen and (min-width:768px) {
+    // banner
+
+    #banner-GRP {
+        width: 768px;
+        height: 540px;
+        display: block;
+        background-image: url('/images/GRD/bannerGD_768.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    #des-GRP {
+        background-color: #F8EFD1;
+        height: 400px;
+    }
+
+    .p-GRP {
+        font-size: 20px;
+        font-family: "DM Sans", sans-serif;
+        grid-column: 2/12;
+        text-align: center;
+        align-content: center;
+    }
+
+    //project1
+
+    #project1-GRP {
+        height: 1450px;
+    }
+
+    #title-project1-GRP {
+        font-size: 55px;
+        grid-column: 2/12;
+    }
+
+    #p1-GRP {
+        font-size: 20px;
+        grid-column: 2/12;
+        grid-row: 1;
+        margin-top: 180px;
+        text-align: center;
+    }
+
+    #img1-GRP {
+        grid-column: 3/7;
+        // width: 282px;
+        height: 350px;
+    }
+
+    #img2-GRP {
+        grid-column: 7/-1;
+        height: 350px;
+    }
+
+    #img3-GRP {
+        grid-column: 3/7;
+    }
+
+    #img4-GRP {
+        grid-column: 7/-1;
+        width: 282px;
+        // height: 350px;
+    }
+
+    #tools-title-project1-GRP {
+        font-size: 30px;
+        grid-column: 3/8;
+    }
+
+    #icon-GRP1 {
+        width: 70px;
+        height: 70px;
+        grid-column: 5/7;
+    }
+
+    #icon-GRP1-1 {
+        width: 70px;
+        height: 70px;
+        grid-column: 7/9;
+    }
+
+    //project2
+
+    #project2-GRP {
+        height: 2100px;
+    }
+
+    #title-project2-GRP {
+        font-size: 52px;
+        grid-column: 2/12;
+    }
+
+    #p2-GRP {
+        font-size: 20px;
+        grid-column: 2/12;
+    }
+
+    #img1-project2-GRP {
+        grid-column: 2/6;
+        width: 340px;
+        height: 200px;
+        background-image: url('/images/GRD/print-content1-mobile2.png');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #img1-1-project2-GRP {
+        grid-column: 6/5;
+        width: 340px;
+        height: 200px;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('/images/GRD/print-content1-mobile1.png');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #img2-project2-GRP {
+        grid-column: 2/7;
+        width: 340px;
+        height: 200px;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('/images/GRD/print-content4-mobile1.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #img2-2-project2-GRP {
+        grid-column: 7/6;
+        width: 340px;
+        height: 200px;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('/images/GRD/print-content4-mobile1.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    #img3-project2-GRP {
+        grid-column: 3/11;
+    }
+
+    #tools-title-project2-GRP {
+        font-size: 35px;
+        grid-column: 4/8;
+    }
+
+    #icon-GRP2 {
+        width: 70px;
+        height: 70px;
+        grid-column: 6/8;
+    }
+
+    #icon-GRP2-1 {
+        width: 69px;
+        height: 69px;
+        grid-column: 8/10;
+    }
+
+    //project 3
+
+    #project3-GRP {
+        height: 1600px;
+    }
+
+    #title-project3-GRP {
+        font-size: 52px;
+        grid-column: 3/11;
+    }
+
+    #p3-GRP {
+        font-family: "DM Sans", sans-serif;
+        font-size: 20px;
+        grid-column: 2/12;
+        margin-top: 240px;
+    }
+
+    #img1-GRP3 {
+        grid-column: 2/7;
+        margin-top: 60px;
+    }
+
+    #img2-GRP3 {
+        grid-column: 7/12;
+        margin-top: 60px;
+    }
+
+    #img3-GRP3 {
+        grid-column: 5/10;
+        margin-top: 60px;
+    }
+
+    #tools-title-project3-GRP {
+        font-size: 30px;
+        grid-column: 4/8;
+        margin-top: 60px;
+    }
+
+    #icon-GRP3 {
+        width: 70px;
+        height: 70px;
+        grid-column: 7/9;
+    }
+
+    #icon-GRP3-1 {
+        width: 69px;
+        height: 69px;
+        grid-column: 9/11;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    // banner
+
+    #banner-GRP {
+        width: 1200px;
+        height: 650px;
+        display: block;
+        background-image: url('/images/GRD/bannerGD.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    #des-GRP {
+        height: 550px;
+    }
+
+    .p-GRP {
+        font-size: 30px;
+        grid-column: 2/12;
+    }
+
+     //project1
+
+     #project1-GRP {
+        height: 1650px;
+    }
+
+    #title-project1-GRP {
+        font-size: 70px;
+        grid-column: 2/12;
+    }
+
+    #p1-GRP {
+        font-size: 30px;
+        grid-column: 3/11;
+    }
+
+    #img1-GRP {
+        grid-column: 3/6;
+        height: 400px;
+    }
+
+    #img2-GRP {
+        grid-column: 7/-1;
+        height: 410px;
+        width: 270px;
+    }
+
+    #img3-GRP {
+        grid-column: 3/6;
+    }
+
+    #img4-GRP {
+        grid-column: 7/-1;
+        width: 400px;
+    }
+
+    #tools-title-project1-GRP {
+        font-size: 30px;
+        grid-column: 3/8;
+    }
+
+    #icon-GRP1 {
+        width: 70px;
+        height: 70px;
+        grid-column: 5/7;
+    }
+
+    #icon-GRP1-1 {
+        width: 70px;
+        height: 70px;
+        grid-column: 7/9;
+    }
+
+    //project 2
+
+    #project2-GRP {
+        height: 1550px;
+    } 
+
+    #img1-project2-GRP {
+        grid-column: 3/7;
+        width: 340px;
+        height: 200px;
+        background-image: url('/images/GRD/print-content1-mobile2.png');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #img1-1-project2-GRP {
+        grid-column: 7/11;
+        width: 340px;
+        height: 200px;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('/images/GRD/print-content1-mobile1.png');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #img2-project2-GRP {
+        grid-column: 2/7;
+        width: 450px;
+        height: 320px;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('/images/GRD/print-content4-mobile1.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #img2-2-project2-GRP {
+        grid-column: 7/11;
+        width: 450px;
+        height: 320px;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('/images/GRD/print-content4-mobile1.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    #img3-project2-GRP {
+        grid-column: 4/10;
+    }
+
+    #tools-title-project2-GRP {
+        font-size: 45px;
+        grid-column: 4/8;
+    }
+
+    #icon-GRP2 {
+        width: 70px;
+        height: 70px;
+        grid-column: 6/8;
+    }
+
+    #icon-GRP2-1 {
+        width: 70px;
+        height: 70px;
+        grid-column: 8/10;
+    }
+
+    //project 3
+
+    #project3-GRP {
+        height: 1800px;
+    }
+
+    #title-project3-GRP {
+        font-size: 60px;
+        grid-column: 3/11;
+    }
+
+    #p3-GRP {
+        font-size: 25px;
+        grid-column: 3/11;
+        margin-top: 240px;
+    }
+
+    #img1-GRP3 {
+        grid-column: 3/7;
+        margin-top: 60px;
+    }
+
+    #img2-GRP3 {
+        grid-column: 7/11;
+        margin-top: 60px;
+    }
+
+    #img3-GRP3 {
+        grid-column: 5/9;
+        margin-top: 60px;
+    }
+
+    #tools-title-project3-GRP {
+        font-size: 30px;
+        grid-column: 4/8;
+        margin-top: 60px;
+    }
+
+    #icon-GRP3 {
+        width: 70px;
+        height: 70px;
+        grid-column: 7/9;
+    }
+
+    #icon-GRP3-1 {
+        width: 69px;
+        height: 69px;
+        grid-column: 9/11;
+    }
+}
