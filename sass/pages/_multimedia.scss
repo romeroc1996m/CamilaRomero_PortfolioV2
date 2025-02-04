@@ -1,0 +1,568 @@
+//banner
+
+#banner-3d {
+    grid-column: 1/5;
+    width: 350px;
+    height: 650px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/3D/banner_375px.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#des-ed {
+    background-color: #F8EFD1;
+    height: 356px;
+}
+
+.p-3d {
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    grid-column: 1/5;
+    text-align: center;
+    align-content: center;
+}
+
+//project1
+
+#project1-3d {
+    height: 870px;
+    background-image: url('/images/3D/BG_project1-375px.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#title-project1-3D {
+    font-family: "DM Serif Display", serif;
+    font-size: 52px;
+    grid-column: 1/5;
+    grid-row: 1;
+    margin-top: 50px;
+}
+
+#p1-3D {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    grid-column: 1/5;
+    grid-row: 1;
+    margin-top: 158px;
+    text-align: center;
+}
+
+#video {
+    grid-column: 1/5;
+    width: 350px;
+    height: 290px;
+}
+
+#tools-title-project1 {
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 30px;
+    grid-column: 1/5;
+}
+
+#icon1 {
+    width: 73px;
+    height: 64px;
+    grid-column: 2/3;
+}
+
+#icon2 {
+    width: 73px;
+    height: 64px;
+}
+
+//project2
+
+#project2-3d {
+    height: 1900px;
+    background-color: #F8EFD1;
+}
+
+#title-project2-3D {
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 45px;
+    grid-column: 1/5;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#p2-3D {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    grid-column: 1/5;
+    text-align: center;
+}
+
+#beer1 {
+    width: 363px;
+    height: 311px;
+    grid-column: 1/5;
+}
+
+#beer2 {
+    width: 363px;
+    height: 250px;
+    grid-column: 1/5;
+}
+
+#beer3 {
+    width: 363px;
+    height: 311px;
+    grid-column: 1/5;
+}
+
+#tools-title-project2{
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 40px;
+    grid-column: 1/5;
+}
+
+#icon3 {
+    width: 73px;
+    height: 64px;
+    grid-column: 2/3;
+}
+
+#icon4 {
+    width: 73px;
+    height: 64px;
+}
+
+//project3
+
+#project3-3d {
+    height: 1580px;
+}
+
+#title-project3-3D {
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 40px;
+    grid-column: 1/5;
+    text-align: center;
+    margin-top: 45px;
+}
+
+#p3-3D {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    grid-column: 1/5;
+    text-align: center; 
+}
+
+#room1 {
+    width: 360px;
+    height: 203px;
+    grid-column: 1/5;
+}
+
+#room2 {
+    width: 360px;
+    height: 203px;
+    grid-column: 1/5;
+}
+
+#room3 {
+    width: 360px;
+    height: 203px;
+    grid-column: 1/5;
+}
+
+#room4 {
+    width: 360px;
+    height: 203px;
+    grid-column: 1/5;
+}
+
+#tools-title-project3 {
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 30px;
+    grid-column: 1/3;
+}
+
+#icon5 {
+    grid-column: 3/4;
+}
+
+
+@media screen and (min-width:768px) {
+
+    //banner
+
+    #banner-3d {
+        width: 768px;
+        height: 431px;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('/images/3D/banner_768px.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .p-3d {
+        font-size: 20px;
+        grid-column: 2/12;
+    }
+
+    //project1
+
+    #project1-3d {
+        height: 1050px;
+    }
+
+    #title-project1-3D {
+        font-size: 55px;
+        grid-column: 3/11;
+        grid-row: 1;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #p1-3D {
+        font-size: 20px;
+        grid-column: 4/10;
+        grid-row: 1;
+        margin-top: 190px;
+    }
+
+    #video {
+        grid-column: 3/10;
+        width: 480px;
+        height: 350px;
+    }
+
+    #tools-title-project1 {
+        font-size: 35px;
+        grid-column: 3/7;
+    }
+
+    #icon1 {
+        width: 66px;
+        height: 64px;
+        grid-column: 7/9;
+    }
+
+    #icon2 {
+        width: 66px;
+        height: 64px;
+        grid-column: 7/9;
+    }
+
+    //project2
+
+    #project2-3d {
+        height: 950px;
+    }
+
+    #title-project2-3D {
+        font-size: 55px;
+        grid-column: 3/11;
+        align-content: center;
+        grid-row: 1;
+        margin-bottom: 1820px;
+    }
+
+    #p2-3D {
+        font-family: "DM Sans", sans-serif;
+        font-size: 20px;
+        grid-column: 3/11;
+        text-align: center;
+        grid-row: 1;
+        margin-top: 280px;
+    }
+
+    #beer1 {
+        width: 213px;
+        height: 190px;
+        grid-column: 1/5;
+        margin-left: 20px;
+        grid-row: 1;
+        margin-top: 500px;
+    }
+
+    #beer2 {
+        width: 342px;
+        height: 190px;
+        grid-column: 5/9;
+        grid-row: 1;
+        margin-top: 500px;
+    }
+
+    #beer3 {
+        width: 213px;
+        height: 190px;
+        grid-column: 9/-1;
+        grid-row: 1;
+        margin-top: 500px;
+    }
+
+    #tools-title-project2{
+        font-family: "DM Serif Display", sans-serif;
+        font-size: 40px;
+        grid-column: 2/6;
+        grid-row: 1;
+        margin-top: 730px;
+    }
+
+    #icon3 {
+        width: 60px;
+        height: 57px;
+        grid-column: 7/9;
+        grid-row: 1;
+        margin-top: 730px;
+    }
+
+    #icon4 {
+        width: 60px;
+        height: 57px;
+        grid-column: 9/11;
+        grid-row: 1;
+        margin-top: 730px;
+    }
+
+    //project3
+
+    #project3-3d {
+        height: 1580px;
+    }
+
+    #title-project3-3D {
+        font-size: 50px;
+        grid-column: 3/11;
+        text-align: center;
+        margin-top: 45px;
+        text-align: center;
+    }
+
+    #p3-3D {
+        font-size: 20px;
+        grid-column: 4/10;
+        text-align: center; 
+    }
+
+    #room1 {
+        width: 400px;
+        height: 225px;
+        grid-column: 1/9;
+    }
+
+    #room2 {
+        width: 400px;
+        height: 225px;
+        grid-column: 2/10;
+    }
+
+    #room3 {
+        width: 400px;
+        height: 225px;
+        grid-column: 4/11;
+    }
+
+    #room4 {
+        width: 400px;
+        height: 225px;
+        grid-column: 6/-1;
+    }
+
+    #tools-title-project3 {
+        font-size: 35px;
+        grid-column: 4/8;
+        margin-top: 20px;
+    }
+
+    #icon5 {
+        grid-column: 8/10;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+    //banner
+    #banner-3d {
+        width: 1200px;
+        height: 650px;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('/images/3D/banner1.1.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    #des-ed {
+        height: 243px;
+    }
+
+    .p-3d {
+        font-size: 25px;
+        grid-column: 2/12;
+    }
+
+        //project1
+
+        #project1-3d {
+            height: 1250px;
+        }
+    
+        #title-project1-3D {
+            font-size: 70px;
+            grid-column: 3/11;
+            grid-row: 1;
+            margin-top: 50px;
+            text-align: center;
+        }
+    
+        #p1-3D {
+            font-size: 30px;
+            grid-column: 4/10;
+            grid-row: 1;
+            margin-top: 190px;
+        }
+    
+        #video {
+            grid-column: 3/10;
+            width: 770px;
+            height: 450px;
+        }
+    
+        #tools-title-project1 {
+            font-size: 45px;
+            grid-column: 3/7;
+        }
+    
+        #icon1 {
+            width: 66px;
+            height: 64px;
+            grid-column: 7/9;
+        }
+    
+        #icon2 {
+            width: 66px;
+            height: 64px;
+            grid-column: 9/10;
+        }
+
+        //project2
+
+        #project2-3d {
+            height: 1100px;
+        }
+
+        #title-project2-3D {
+            font-size: 70px;
+            grid-column: 3/11;
+            align-content: center;
+        }
+
+        #p2-3D {
+            font-family: "DM Sans", sans-serif;
+            font-size: 30px;
+            grid-column: 2/12;
+            text-align: center;
+        }
+
+        #beer1 {
+            width: 400px;
+            height: 200px;
+            grid-column: 1/4;
+        }
+
+        #beer2 {
+            width: 450px;
+            height: 250px;
+            grid-column: 5/9;
+        }
+
+        #beer3 {
+            width: 378px;
+            height: 200px;
+            grid-column: 10/13;
+        }
+
+        #tools-title-project2{
+            font-family: "DM Serif Display", sans-serif;
+            font-size: 40px;
+            grid-column: 2/6;
+            grid-row: 1;
+            margin-top: 880px;
+        }
+
+        #icon3 {
+            width: 75px;
+            height: 77px;
+            grid-column: 7/9;
+            grid-row: 1;
+            margin-top: 880px;
+        }
+
+        #icon4 {
+            width: 75px;
+            height: 77px;
+            grid-column: 9/11;
+            grid-row: 1;
+            margin-top: 880px;
+        }
+
+    //project3
+
+    #project3-3d {
+        height: 1480px;
+    }
+
+    #title-project3-3D {
+        font-size: 70px;
+        grid-column: 3/11;
+        text-align: center;
+        margin-top: 45px;
+        text-align: center;
+    }
+
+    #p3-3D {
+        font-size: 30px;
+        grid-column: 4/10;
+        text-align: center; 
+    }
+
+    #room1 {
+        width: 500px;
+        height: 225px;
+        grid-column: 1/5;
+    }
+
+    #room2 {
+        width: 500px;
+        height: 225px;
+        grid-column: 5/9;
+    }
+
+    #room3 {
+        width: 500px;
+        height: 225px;
+        grid-column: 5/9;
+        margin-bottom: 100px
+    }
+
+    #room4 {
+        width: 500px;
+        height: 225px;
+        grid-column: 9/-1;
+    }
+
+    #tools-title-project3 {
+        font-size: 45px;
+        grid-column: 4/8;
+        margin-top: 35px;
+    }
+
+    #icon5 {
+        grid-column: 8/10;
+    }
+
+}
