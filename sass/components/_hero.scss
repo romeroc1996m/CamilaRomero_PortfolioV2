@@ -1,20 +1,12 @@
 #hero {
     width: 375px;
     height: 633px;
-    display: block;
-    background-image: url('/images/hero_mobile.jpg');
-    background-position: center;
-    background-size: cover;
 }
 
 @media screen and (min-width:768px) {
     #hero {
         width: 768px;
         height: 500px;
-        display: block;
-        background-image: url('/images/hero_768px.jpg');
-        background-position: center;
-        background-size: cover;
     }
 }
 
@@ -22,11 +14,7 @@
 
     #hero {
         width: 1200px;
-        height: 800px;
-        display: block;
-        background-image: url('/images/hero_1200px.jpg');
-        background-position: center;
-        background-size: cover;
+        height: 500px;
     }
 
 }
